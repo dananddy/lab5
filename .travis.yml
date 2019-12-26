@@ -8,4 +8,4 @@ notifications:
 deploy:
     provider: heroku
     api_key: d02232b6-20ff-4e54-9444-504c24036e7b
-    app: shielded-falls-86001
+    app: lab5js
