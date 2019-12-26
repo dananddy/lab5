@@ -4,7 +4,9 @@
   "description": "lab5",
   "main": "index.html",
   "scripts": {
-    "test": "test",
+
+    "test": "eslint.",
+    "prettier": "prettier --config .prettierrc.json --write *.js",
     "start": "index.html"
   },
   "repository": {
