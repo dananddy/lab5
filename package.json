@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_final",
+  "version": "1.0.0",
+  "description": "lab5",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dananddy/lab5.git"
+  },
+  "author": "dananddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dananddy/lab5/issues"
+  },
+  "homepage": "https://github.com/dananddy/lab5#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
