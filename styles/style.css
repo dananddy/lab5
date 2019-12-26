@@ -1,0 +1,55 @@
+h1:hover{
+	 color:  rgba(51, 143, 255, 1);
+}
+.container{
+	background-color:  rgba(255, 255, 120, 0.7);
+	display: grid;
+	grid-template-columns:  repeat(5, 1fr);
+    grid-template-rows:  10% repeat(3, 1fr);
+    
+}
+.blank{
+	grid-row:2/3;
+	 grid-column: 2/3;
+	border-right: 3px solid  rgba(51, 143, 255, 1);;
+}
+.header{
+	 grid-row:2/3;
+	 grid-column: 4/5;
+	padding-left: 8px;
+	padding-top: 8px;
+
+}
+.menu{
+	grid-row:2/3;
+	grid-column: 2/4;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	padding-right: 20px;
+	margin: 10px;
+}
+.menu > menu{
+	display: flex;
+	flex:1 1 auto;
+    text-align:center;
+    margin:5px;
+    background-color:  rgba(51, 143, 250, 1);
+	
+	border: 3px solid rgba( 120, 200, 250, 1);
+}
+menu:hover{
+	background-color: rgba(255, 255, 120, 0.2);
+	border: 3px solid  rgba(51, 143, 250, 1);
+}
+a{
+    color: solid red;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+    background: white;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my site</title>
+	<link rel="stylesheet" href="../styles/style_10.css">
+	<script language="JavaScript" src="../scripts/Script_10.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class="header">
+				<h1>Lab №10  <br><i>Рядки </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+			<div class = "col">
+				
+				<FORM name="form1">
+					<h4>Вивід символів рядка в стовпчик</h4>
+				    Введіть рядок: <input type="text" size=30 name="st1"><hr>
+				    <input type="button" value="Bикoнати"
+				           onClick="form1.res.value=ttest(form1.st1.value)">
+				    <input type="reset" value=Скасувати><hr>
+				    <textarea cols=30 rows=5 name= res></textarea>
+				</FORM>
+			<div class = "repeat">
+				
+				<FORM name="form2">
+					<h4> Число повторів слова в тексті: </h4>
+				    Введіть текст:<br>
+				    <textarea name="textin" rows=4 cols=30></textarea><hr>
+				    Введіть слово: <input type="text" name="data" size="8"><hr>
+				    <input type="button" value="Обчислити"
+				           onClick="numword(form2)"><hr>
+				    Кількість слів у тексті: <input type="text" name="result" size=8><hr>
+				    <input type="reset" value="Скасувати">
+				</FORM>
+			</div>
+			<div class = "space">
+				<h4>Видалити всі лишні пробіли</h4>
+				<FORM name="form3">
+				    Введіть рядок: <input type="text" size=30 name="st1"><hr>
+				    <input type="button" value="Bикoнати"
+				           onClick="form3.res.value=t3test(form3.st1.value)">
+				    <input type="reset" value=Скасувати><hr>
+				    <textarea cols=30 rows=5 name= res></textarea>
+				</FORM>
+			</div>
+			<div class = "chang">
+				<form name="form4">
+					<h4>Введіть речення з словами на букву "К"</h4>
+					<textarea name="texts" rows=5 cols=30></textarea>
+				<p id="demo"></p>
+				<input type="button" value="Обчислити" onclick="myFunction(form4.texts.value)">
+				</form>
+				
+			</div>
+			<div class = "count">
+				<h4>Кількість слів в тексті</h4>
+				<FORM name="form5">
+				    Введіть рядок: <input type="text" size=30 name="st1"><hr>
+				    <input type="button" value="Bикoнати"
+				           onClick="form5.res.value=t8test(form5.st1.value)">
+				    <input type="reset" value=Скасувати><hr>
+				    <textarea cols=30 rows=5 name= res></textarea>
+				</FORM>
+			</div>
+			</div>
+		</div>
+</body>
+</html>

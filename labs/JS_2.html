@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 2</title>
+	<link rel="stylesheet" href="../styles/style_2.css" >
+	<script language="JavaScript" src="../scripts/Script_2.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class = "numb1"><h2>I</h2></div>
+			<div class = "numb2"><h2>II</h2></div>
+			<div class = "numb3"><h2>IV</h2></div>
+			<div class = "numb4"><h2>V</h2></div>
+			<div class = "numb5"><h2>VI</h2></div>
+
+			<div class="header">
+				<h1>Lab №2  <br><i>Функція і обробка подій  </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+			<div class = "ploscha_truk">
+				<p>Площа прямокутного трикутника</p>
+				<form name="form1"> 
+					Основа:      <input type="text" size=5 name="param1"><br> 
+					Висота: <input type="text" size=5 name="param2"><br><br>
+					
+					<input type="button" value=Відповідь onClick="square(document.form1.param1.value, document.form1.param2.value)">
+					<input type="text" size=5 name="param3"><br>
+				</form> 
+			</div>
+			<div class="ploscha_sq">
+				<p>Площа прямокутника</p>
+				<form name="form2">
+					Сторона: <input type="text" size=7 name="num1" onChange="square_rec(form2)"><br> 
+					Площа квадрата: <input type="text" size=7 name="res"><br> <input type="reset" value=Оновити> 
+				</form>
+			</div>
+			<div class="ploscha_3_tochk">
+				<p>Площа трикутника за заданими трьома точками</p>
+				<form name="form3">
+					<b>Перша точка:</b> <br> X:<input type="text" size=5 name="x1">Y:<input type="text" size=5 name="y1"><br>
+					<b>Друга точка:</b> <br> X:<input type="text" size=5 name="x2">Y:<input type="text" size=5 name="y2"><br>
+					<b>Третя точка:</b> <br> X:<input type="text" size=5 name="x3">Y:<input type="text" size=5 name="y3"><br><br>
+					<b>Площа:</b> <input type="text" size =5 name="res" onFocus="ploscha_3t(form3)">
+				</form>
+			</div>
+			<div class="vid_tochk">
+				<p>Відстань від точки до початку координат (0;0)</p>
+				<form name="form4">
+					<b>Tочка:</b> <br> X:<input type="text" size=5 name="x1">Y:<input type="text" size=5 name="y1"><br>
+					<b>Відстань:</b> <input type="text" size =5 name="res" onSelect="vid_tochk(form4)">
+				</form>
+			</div>
+			<div class="change_pos">
+				<p>Змінити значення двох змінних</p>
+				<form name="form5">
+					<b>Змінити дані</b> <br> <input type="text" size=5 name="x" ><input type="text" size=5 name="y" onBlur="chang_pos(form5)"><br>
+				</form>
+			</div>
+		</div>
+</body>
+</html>

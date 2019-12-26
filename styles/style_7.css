@@ -1,0 +1,76 @@
+h1:hover{
+	 color:  rgba(51, 143, 255, 1);
+}
+.container{
+	background-color:  rgba(255, 255, 120, 0.7);
+	display: grid;
+	grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  50px 300px 350px 350px 500px 300px;
+    
+}
+.blank{
+	grid-row:1/2;
+	grid-column: 2/3;
+	
+}
+.header{
+	grid-row:2/3;
+	grid-column: 3/4;
+	padding-left: 8px;
+	padding-top: 8px;
+
+}
+.Course1{
+	 grid-row:2/3;
+	 grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom: 3px solid  rgba(51, 143, 255, 1);
+}
+.Cities{
+	 grid-row:3/4;
+	 grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom: 3px solid  rgba(51, 143, 255, 1);
+}
+.TableSet{
+	 grid-row:4/5;
+	 grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom: 3px solid  rgba(51, 143, 255, 1);
+}
+.ShopList{
+	 grid-row:5/6;
+	 grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom: 3px solid  rgba(51, 143, 255, 1);
+}
+table{
+	margin: 3px;
+}
+a{
+    color: solid red;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+    background: white;
+}
+td
+{
+	width: 20px;
+	height: 20px;
+}
+table{
+	background: white;
+	border: 2px solid  rgba(51, 143, 255, 1);
+}

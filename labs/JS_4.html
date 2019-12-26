@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my site</title>
+	<link rel="stylesheet" href="../styles/style_4.css">
+	<script language="JavaScript" src="../scripts/Script_4.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class="header">
+				<h1>Lab №4  <br><i>Методи </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+			<div class="Pics"> 
+				<form name=form1>  
+					<center>
+					<img src="../pics/pp1.jpg" width="120" height="120" name="pic1"  alt="pic1">   
+					<img src="../pics/pp2.jpg" width="120" height="120" name="pic2" alt="pic2">   
+					<img src="../pics/pp3.jpg" width="120" height="120" name="pic3" alt="pic3"> <br><br> 
+					<input type="button"value=" Переставити" onClick="chan(form1)"> <br>
+					<input type="text" name="a1" size=1>    
+					<input type="text" name="a2" size=1>     
+					</center>
+				</from>
+			</div>
+			<div class="Content">
+				<center>
+					<br>
+					<a href="../JS_Labs.html" onmouseover="imgn(1,1)" onmouseout="imgn(1,0)">   
+					<img src="../pics/p1.jpg" аlt="пункт 1" border="0" width="120" height="120"></a><br>   
+					<a href="../JS_Labs.html" onmouseover="imgn(2,1)" onmouseout="imgn(2,0)">   
+					<img src="../pics/p2.jpg" аlt=" пункт 1" border="0" width="120" height="120"></a><br>   
+					<a href="../JS_Labs.html" onmouseover="imgn(3,1)" onmouseout="imgn(3,0)">  
+					<img src="../pics/p3.jpg" аlt=" пункт 1" border="0" width="120" height="120"></a><br>
+				</center>
+			</div>
+			<div class="Bottom"> 
+				<form name=form2>  
+					<center>
+						<img src="../pics/pp1.jpg" width="120" height="120" name="pic1" onmouseup="push_bot()" alt="pic1">   
+						<img src="../pics/pp2.jpg" width="120" height="120" name="pic2" alt="pic2">   
+						<img src="../pics/pp3.jpg" width="120" height="120" name="pic3" alt="pic3"> <br><br>
+					</center>
+				</from>
+			</div>
+			<div class="ZoomIn"> 
+				<form name=form3>  
+					<center>
+						<img src="../pics/wp2.jpg" id="zoom_img" width="120" height="120" name="pic1" onmouseover="zooming()" onmouseout="unzooming()" alt="pic1">
+					</center>
+				</from>
+			</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my site</title>
+	<link rel="stylesheet" href="../styles/style_6.css">
+	<script language="JavaScript" src="../scripts/Script_6.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class="header">
+				<h1>Lab №6  <br><i>Галочки </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+			<div class="formBook">
+				<p align="center">Анкета</p>
+				<form name="form0">
+					 <h4>Введіть назву улюбленого журнала чи газети</h4>
+					 <input type="text" name="n1" size=25><br>
+				</form>
+				<form name="form1">
+					<h4>Що вам подобається у виданні?</h4>
+					<table  align=center> <tr>
+					<td><input type="checkbox" name="m1" value="Стиль подачі матеріалу" onClick="set(form1.elements[0].value)">
+					Стиль подачі материалу<br> 
+					<input type="checkbox" name="m2" value="Достовірність інформації" onClick="set(form1.elements[1].value)">
+					Достовірність інформації<br>
+					<input type="checkbox" name="m3" value="Дизайн і оформлення" onClick="set(form1.elements[2].value)">
+					Дизайн і оформлення<br>
+					</td></tr></table>
+					<textarea name="area" cols=25 rows=7 > </textarea><br>
+					<input type="reset" value="Скасувати" onclick= "s='Bac приваблює: \r\n'">
+				</form>
+			</div>
+			<div class="FormP">
+				<h3>Анкета перекладача</h3>
+				Вкажіть ті мови, якими Ви володієте: <br>
+				<form name="form2">
+					<input type="checkbox" name="lan" value=100>українська<br>
+					<input type="checkbox" name="lan" value=200>англійська<br>
+					<input type="checkbox" name="lan" value=300>китайська<br>
+					<input type="button" value="Винагорода" onClick="grant(form2)"> <hr>
+					<input type="Text" size=50 name="ww" value=""><br>
+					<input type="reset" value="Скасувати">
+				</form>
+			</div>
+			<div class="formClasses">
+				<h2>Анкета учасника курсів</h2>
+				Вкажіть курс на який ви бажаєте записатися <br>
+				<form name="form3">
+					<input type="checkbox" name="lan" value=7000>Курс англійської<br>
+					<input type="checkbox" name="lan" value=12000>Курс інформаційних технологій<br>
+					<input type="checkbox" name="lan" value=9000>Курс економіки<br>
+				</form>
+				<hr>
+				Вкажіть час курсу <br>
+				<form name="form4">
+					<input type="checkbox" name="lan" value=0>2 години двічі на тиждень<br>
+					<input type="checkbox" name="lan" value=1500>2 години тричі на тиждень<br>
+					<input type="checkbox" name="lan" value=2000>2 години чотири рази на тиждень + індивідуальні консультації<br>
+				</form>
+				<hr>
+				Вкажіть мови викладачів  <br>
+				<form name="form5">
+					<input type="checkbox" name="lan" value=0>українська<br>
+					<input type="checkbox" name="lan" value=3000>англійська<br>
+					<input type="checkbox" name="lan" value=7000>китайська<br>
+				</form>
+				<hr>
+				Форма звітності <br>
+				<form name="form6">
+					<input type="checkbox" name="lan" value=0>Онлайн здача<br>
+					<input type="checkbox" name="lan" value=1000>Перевірка писемного звіу<br>
+					<input type="checkbox" name="lan" value=3000>Індивідуальна <br>
+				</form>
+				<hr>
+				<input type="button" value="Ціна за курс(и)" onClick="calc(form3,form4,form5,form6)"> <hr>
+				<p id="ans"></p>
+			</div>
+		</div>
+		</div>
+</body>
+</html>

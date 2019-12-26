@@ -1,0 +1,78 @@
+h1:hover{
+	 color:  rgba(51, 143, 255, 1);
+}
+.container{
+	background-color:  rgba(255, 255, 120, 0.7);
+	display: grid;
+	grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  70px 200px 540px 50px 450px 300px;
+    
+}
+.blank{
+	grid-row:1/2;
+	 grid-column: 2/3;
+	
+}
+.header{
+	 grid-row:2/3;
+	 grid-column: 3/4;
+	padding-left: 8px;
+	padding-top: 8px;
+}
+
+.SquereShape{
+	grid-row:2/3;
+	grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom:  3px solid  rgba(51, 143, 255, 1);
+}
+
+.AlignPic{
+	grid-row:3/4;
+	grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom:  3px solid  rgba(51, 143, 255, 1);
+}
+.HorLine{
+	grid-row:4/5;
+	grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom:  3px solid  rgba(51, 143, 255, 1);
+}
+.FormHuman{
+	grid-row:5/6;
+	grid-column: 2/3;
+	padding-left: 8px;
+	padding-top: 8px;
+	border-right: 3px solid  rgba(51, 143, 255, 1);
+	border-bottom:  3px solid  rgba(51, 143, 255, 1);
+}
+a{
+    color: solid red;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+    background: white;
+}
+img{
+	margin: 3px;
+}
+hr{
+	background-color: rgba(51, 143, 255, 1)
+}
+img:hover{
+	border: 1px solid   rgba(51, 143, 255, 1);
+}
+table{
+	margin-right: 10px;
+	width: 300px;
+}

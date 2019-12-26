@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>my site</title>
+	<link rel="stylesheet" href="../styles/style_5.css">
+	<script language="JavaScript" src="../scripts/Script_5.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class="header">
+				<h1>Lab №5  <br><i>Перемикачі </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+				<div class="SquereShape">
+					<form name="form1">
+						Введіть значення
+						<input type="text" name="data" size=10><hr>
+						Вкажіть форму:<br>
+						<input type="radio" name="fv" value=1
+						onClick="test(form1.elements[1].value)">квадрат<br>
+						<input type="radio" name="fv" value=3.14
+						onClick="test(form1.elements[2].value)">круг<br>
+					 	<input type="radio" name="fv" value=0.42
+						onClick="test(form1.elements[3].value)">трикутник<br>
+						
+						Площа: <input type="text" name="res" size=10>
+					</form> 
+				</div>
+				<div class="AlignPic">
+					<p>Зображення і обтікання текстом</p>
+						<form name="form2">
+							 
+							 <input type="radio" name="alg" checked value=ld onclick="chpict(form2)">(left)
+							 <input type="radio" name="alg" value=rd onclick="chpict(form2)">(right) 
+							 
+						</form>
+						<table bgcolor="F8F8FF">
+							 <tr><td>Lorem Ipsum не є випадковим набором літер. Він походить з уривку
+							класичної латинської літератури 45 року до н.е., тобто має більш як 2000-річну
+							історію. Річард Макклінток, професор латини з коледжу Хемпдін-Сидні, що у
+							Вірджінії, вивчав одне з найменш зрозумілих латинських слів - consectetur - з
+							уривку Lorem Ipsum, і у пошуку цього слова в класичній літературі знайшов
+							безсумнівне джерело.
+							<IMG src=p1.jpg name=mypict align=left border=1 width=150>
+							Lorem Ipsum походить з розділів 1.10.32 та 1.10.33 цицеронівського "de Finibus
+							Bonorum et Malorum" ("Про межі добра і зла"), написаного у 45 році до н.е. Цей
+							трактат з теорії етики був дуже популярним в епоху Відродження. Перший
+							рядок Lorem Ipsum, "Lorem ipsum dolor sit amet..." походить з одного з рядків
+							розділу 1.10.32.
+							 </td></tr>
+						</table> 
+				</div>
+				<div class="HorLine">
+					<hr id="line" size="10" onmouseup="Linechange()">
+				</div>
+				<div class="FormHuman">
+					<form name="form3">
+						<p>Стать</p>
+						<input type="radio" name="man">чоловік<br>
+						<input type="radio" name="woman">жінка<br>
+						<input type="radio" name="trans">не уточнюю<br>
+						<p>Вік</p> 
+						<input type="text" name="age" size=10><br>
+						<p>Сімейне положення</p>	
+						<input type="radio" name="mar">Одружений/Заміжня<br>
+						<input type="radio" name="nmar">Неодружений<br>
+						<input type="radio" name="look">В акивному пощуку<br>
+						<input type="radio" name="young" >Молодой і холостой<br>
+						<input type="button" value="Підтвердити" onClick=formatin(form3)>
+						<p id ="texts">Анкета</p>
+						
+					</form>
+					
+
+				</div>
+			</div>
+		</div>
+</body>
+</html>

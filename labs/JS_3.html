@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab 3</title>
+	<link rel="stylesheet" href="../styles/style_3.css">
+	<script language="JavaScript" src="../scripts/Script_3.js"></script>
+</head>
+<body>
+		<div class = "container">
+			<div class="header">
+				<h1>Lab №3  <br><i>Розгалуження в програмах </i></h1>
+			</div>
+			<div class="blank"><p><h3><a href="../JS_Labs.html">BACK</a></h3></p></div>
+			<div class = "max_val">
+				<p> Обчислення максимального значення</p> 
+				<form name="form1"> 
+					Перше число<br><input type="text" name="num1"><br>
+					Друге число <br><input type="text"  name="num2"><br> 
+					Третє число<br><input type="text"  name="num3"><br> 
+					<br>Максимальне значення <input type="text"  name="res"><br> 
+					<input type="button" value="Визначити" onClick="maxval(form1)"> 
+					<input type="reset"> 
+				</form>
+			</div>
+			<div class="max_kil">
+				<p>Визначення кількості максимальних значень в рядку</p>
+				<form name="form2">
+					Введіть послідовність <br> <input type="text" name="x">
+					<input type="button" value="Визначити" onClick="max_in_line(form2)"> <br>
+					Максимальне значення  <input type="text" size ="5"name="maxlet"><br>
+					Зустрічалося  <input type="text" size = " 5"name="kmax">
+				</form>
+			</div>
+			<div class="real3">
+				<p>Чи існує заданий трикутник?</p>
+				<form name="form3">
+					Введіть три сторони трикутника<br>
+					<input type="text" size =3 name="a">
+					<input type="text" size =3 name="b">
+					<input type="text" size =3 name="c"><br><br>
+					<input type="button" value="Перевірити" onClick="real_triangle(form3)"> <br><br>
+					Tрикутник <input type="text" size =5 name="answer">
+				</form>
+			</div>
+			<div class="coordinate">
+				<p>До якої чверті належать координати точки</p>
+				<form name="form4">
+					Координати точки<br><input type="text" size =4 name="x1">
+					<input type="text" size =4 name="x2"><br> 
+					<input type="button" value="Визначити" onClick="find_q(form4)"><br>
+					Данна точа лежуть у <input type="text" size =5 name="res"><br>
+				</form>
+			</div>
+			
+		</div>
+</body>
+</html>
