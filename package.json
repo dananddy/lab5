@@ -1,21 +1,21 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "eslint .",
-    "prettier": "prettier --config .prettierrc.json --write *.*",
-    "precommit": "npm run prettier",
-    "prepush": "npm run test"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "eslint": "^6.7.2",
-    "husky": "^3.1.0"
-  },
-  "devDependencies": {
-    "prettier": "^1.19.1"
-  }
+    "name": "node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "eslint .",
+        "prettier": "prettier --config .prettierrc.json --write *.*",
+        "precommit": "npm run prettier",
+        "prepush": "npm run test"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "eslint": "^6.7.2",
+        "husky": "^3.1.0"
+    },
+    "devDependencies": {
+        "prettier": "^1.19.1"
+    }
 }
