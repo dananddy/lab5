@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "eslint .",
+        "start": "index.js",
         "prettier": "prettier --config .prettierrc.json --write *.*",
         "precommit": "npm run prettier",
         "prepush": "npm run test"
