@@ -1,7 +1,11 @@
 language: node_js
 node_js:
-  - node
+    - node
 script:
-  - npm run test
+    - npm run test
 notifications:
-  email: false
+    email: false
+deploy:
+  provider: heroku
+  api_key: $api_key
+  app: shielded-falls-86001
