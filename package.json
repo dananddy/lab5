@@ -8,7 +8,7 @@
         "lint": "eslint .",
         "build": "index.js",
         "start": "node index.js",
-        "prettier": "prettier --config .prettierrc.json --write *.*",
+        "prettier": "prettier --config .prettierrc.json --write *.js",
         "precommit": "npm run prettier",
         "prepush": "npm run test"
     },
