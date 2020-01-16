@@ -7,5 +7,5 @@ notifications:
     email: false
 deploy:
     provider: heroku
-    api_key: d02232b6-20ff-4e54-9444-504c24036e7b
+    api_key: $api_key
     app: lab5js
